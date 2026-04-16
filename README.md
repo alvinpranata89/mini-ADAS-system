@@ -48,7 +48,11 @@ source adas-env/bin/activate
 pip install evdev
 ```
 
----
+## GUI (Qt)
+
+The dashboard is implemented using Qt on Raspberry Pi.  
+Open the project using Qt Creator and build normally.
+
 
 ## CAN Configuration
 
