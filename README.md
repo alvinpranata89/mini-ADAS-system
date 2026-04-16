@@ -34,6 +34,15 @@ The system is built using a distributed embedded architecture with multiple node
 * CAN interface (MCP2515)
 
 ---
+## STM32 Firmware
+
+The STM32 firmware was generated using STM32CubeMX and implements:
+
+- Ultrasonic sensor data acquisition
+- CAN message transmission via MCP2515
+
+Key logic can be found in:
+- Core/Src/main.c
 
 ## Setup (Raspberry Pi)
 
