@@ -1,6 +1,6 @@
 # Mini ADAS System (Parking Assistance Prototype)
 
-This project demonstrates a simplified Advanced Driver Assistance System (ADAS) for vehicle parking, featuring distance measurement and steering guidance visualized on a graphical dashboard.
+This project demonstrates a simplified Advanced Driver Assistance System (ADAS) for vehicle parking, featuring distance measurement and steering trajectory visualized on a graphical dashboard.
 
 ## Overview
 
@@ -70,12 +70,22 @@ python DS.py
 
 * Steering input is derived from IMU gyro data (DualSense controller)
 * Includes filtering, deadzone, and drift compensation
-* CAN is used to simulate communication between automotive ECUs
+* CAN protocol is used to simulate communication between automotive ECUs
 
 ---
 
 ## Future Improvements
 
-* Sensor fusion (gyro and accelerometer) for more stable steering estimation
 * Integration with real automotive steering angle sensor
-* Advanced ADAS logic (lane detection, trajectory prediction)
+* Adding more distance sensor or using real vehicle distance sensor
+* Advanced ADAS logic (lane detection, camera integration)
+
+
+
+https://github.com/user-attachments/assets/3e7f92fb-65e7-405c-b2f5-7b87920ac040
+
+
+
+https://github.com/user-attachments/assets/1310b057-ce1c-4888-b549-76da096c774f
+
+
