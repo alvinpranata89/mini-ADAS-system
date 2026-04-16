@@ -61,7 +61,7 @@ sudo ip link set can0 up type can bitrate 500000
 ## Run
 
 ```bash
-python steering.py
+python DS.py
 ```
 
 ---
