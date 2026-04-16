@@ -87,18 +87,14 @@ python DS.py
 
 ---
 
+https://github.com/user-attachments/assets/3e7f92fb-65e7-405c-b2f5-7b87920ac040
+
+https://github.com/user-attachments/assets/1310b057-ce1c-4888-b549-76da096c774f
+
 ## Future Improvements
 
 * Integration with real automotive steering angle sensor
 * Adding more distance sensor or using real vehicle distance sensor
 * Advanced ADAS logic (lane detection, camera integration)
-
-
-
-https://github.com/user-attachments/assets/3e7f92fb-65e7-405c-b2f5-7b87920ac040
-
-
-
-https://github.com/user-attachments/assets/1310b057-ce1c-4888-b549-76da096c774f
 
 
