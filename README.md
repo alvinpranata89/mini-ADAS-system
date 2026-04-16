@@ -1,4 +1,4 @@
-Mini ADAS System (Parking Assistance Prototype)
+#Mini ADAS System (Parking Assistance Prototype)
 
 This project demonstrates a simplified Advanced Driver Assistance System (ADAS) for vehicle parking, featuring distance measurement and steering guidance visualized on a graphical dashboard.
 
