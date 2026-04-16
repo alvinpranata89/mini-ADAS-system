@@ -72,7 +72,7 @@ sudo ip link set can0 up type can bitrate 500000
 ---
 
 ## Run
-
+Run the DS python script together with the compiled Qt dashboard
 ```bash
 python DS.py
 ```
