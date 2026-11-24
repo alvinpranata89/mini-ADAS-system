@@ -33,7 +33,7 @@ The system is built using a distributed embedded architecture with multiple node
 * Qt (for GUI)
 * CAN interface (MCP2515)
 ---
-## wiring
+## Wiring
 
 | MCP2515 Pin | STM32 (NUCLEO-F401RE) | Remark |
 |---|---|---|
