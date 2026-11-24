@@ -35,7 +35,7 @@ The system is built using a distributed embedded architecture with multiple node
 ---
 ## wiring
 
-M| MCP2515 Pin | STM32 (NUCLEO-F401RE) | Remark |
+| MCP2515 Pin | STM32 (NUCLEO-F401RE) | Remark |
 |---|---|---|
 | SI (MOSI) | PA7 (SPI1_MOSI) | Master → Slave (Green) |
 | SO (MISO) | PA6 (SPI1_MISO) | Slave → Master (Red) |
