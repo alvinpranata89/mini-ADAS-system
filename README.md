@@ -35,24 +35,24 @@ The system is built using a distributed embedded architecture with multiple node
 ---
 ## wiring
 
-MCP2515 pin ->	STM32 (Nucleo F401RE) |	Remark
-------------------------------------------------------------
-SI (MOSI) ->	PA7 (SPI1_MOSI)		      |  Master → Slave	(Green)
-SO (MISO)	->	PA6 (SPI1_MISO)		      |  Slave → Master		(Red)
-SCK		    ->	PA5 (SPI1_SCK)		      |  Clock from STM32	(white)
-CS		    ->	PB6			                |  Chip select		
-INT		    ->	PC7						Brown
+M| MCP2515 Pin | STM32 (NUCLEO-F401RE) | Remark |
+|---|---|---|
+| SI (MOSI) | PA7 (SPI1_MOSI) | Master → Slave (Green) |
+| SO (MISO) | PA6 (SPI1_MISO) | Slave → Master (Red) |
+| SCK | PA5 (SPI1_SCK) | Clock from STM32 (White) |
+| CS | PB6 | Chip Select |
+| INT | PC7 | Interrupt (Brown) |
 
 
-MCP2515     →   Raspberry Pi
-------------------------------------
-VCC         →   3.3V 
-GND         →   GND			
-SCK         →   GPIO11 (SCLK)		         (orange)
-SO (MISO)   →   GPIO9			               (green)
-SI (MOSI)   →   GPIO10			             (blue)
-CS          →   GPIO8 (CE0)	        	   (red)
-INT         →   GPIO25 (common choice)   (yellow)
+| MCP2515 Pin | Raspberry Pi | Remark |
+|---|---|---|
+| VCC | 3.3V | |
+| GND | GND | |
+| SCK | GPIO11 (SCLK) | Orange |
+| SO (MISO) | GPIO9 | Green |
+| SI (MOSI) | GPIO10 | Blue |
+| CS | GPIO8 (CE0) | Red |
+| INT | GPIO25 | Yellow |
 
 
 ---
