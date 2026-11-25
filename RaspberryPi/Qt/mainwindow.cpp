@@ -21,10 +21,10 @@ void MainWindow::readUdpData()
 
         float gyro = datagram.toFloat();
 
-        // DEBUG dulu
+        // DEBUG 
         //qDebug() << "GYRO:" << gyro;
 
-        // kirim ke radar
+        // send to radar
         radar->setSteering(gyro);
     }
 }
